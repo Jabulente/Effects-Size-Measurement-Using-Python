@@ -21,26 +21,18 @@ This project provides a collection of modular, scalable, and reusable Python scr
 ## Project Structure
 
 ```
-effect_size_toolkit/
-│
-├── notebooks/                # Jupyter notebooks for exploration and demonstrations
-│   └── effect_size_analysis.ipynb
-│
-├── scripts/                  # Python scripts with reusable functions and implementations
-│   ├── cohens_d.py
-│   ├── hedges_g.py
-│   ├── correlation_effect_sizes.py
-│   └── utils.py
-│
-├── data/                     # Sample or example datasets (optional)
-│   └── example_dataset.csv
-│
-├── tests/                    # Unit tests for the effect size functions
-│   └── test_effect_sizes.py
-│
-├── requirements.txt          # Python dependencies and package versions
-├── README.md                 # Project overview and instructions (this file)
-└── setup.py                  # Installation script (optional)
+effects-size-measurements/
+├── Datasets/                 # Contains datasets used for analysis
+├── Notebooks/                # Jupyter notebooks for computing effect sizes
+├── Outputs/ Results/         # Output files and results from analyses
+├── Resources/                # Supplementary resources and documentation
+├── scripts/                  # Python scripts implementing effect size computations
+├── Cohens (d).ipynb          # Notebook for Cohen's d calculation
+├── Eta-squared (η²).ipynb    # Notebook for Eta-squared calculation
+├── Partial Eta-squared (ηp²).ipynb  # Notebook for Partial Eta-squared calculation
+├── Pearsons (r).ipynb        # Notebook for Pearson's r calculation
+└── README.md                 # Project overview and instructions
+
 ```
 
 ## Usage
